@@ -1,0 +1,11 @@
+.main-section{
+    background-color: black;
+    width:600px;
+    margin: auto;
+    position: relative;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
