@@ -1,11 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 .main-section{
     background-color: black;
-    width:600px;
+    width:505px;
     margin: auto;
     position: relative;
 }
 
 .header{
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+ 
+ 
+    height: 50px;
+    padding: 0px;
+    flex:1;
 }
+
+.header div{
+flex:1;
+}
+
+
+.nav-link-header{
+    border: none;
+    color:rgb(113, 118, 123);
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    
+    
+
+    
+}
+
